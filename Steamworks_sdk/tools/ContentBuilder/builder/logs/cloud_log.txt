@@ -1,0 +1,125 @@
+
+
+[2022-10-30 00:14:43] [AppID 7] Starting sync (init,)
+[2022-10-30 00:14:43] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 00:14:43] [AppID 7] Not running AutoCloud. No config data found
+[2022-10-30 00:14:43] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 00:14:43] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 00:14:46] [AppID 7] Starting sync (down,)
+[2022-10-30 00:14:46] [AppID 7] Attempting to sync from local change number '0' to global change number '11965726897367355884'
+[2022-10-30 00:14:46] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-10-30 00:14:46] [AppID 7] Need to download file sharedconfig.vdf
+[2022-10-30 00:14:47] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-east1.storage.googleapis.com', path /CB/E7/7F/04/7/020_1_0B74BF08_D2F32_344.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1667110486&Signature=hrWVpbwbeg2xExDn1VWzjxfQ%2F7QO3KMzV8isc600JHMgg10fd%2FtCP%2BUlLW2S1Age%2B3OifAIQuKKq5OE9rBvdrRjjfrGpDyipohQC7KHZTqul7Nhxvo7KoD99IJb7b%2Fl82y9%2BhhHtKm4VyQxlGML4e3vYAigKiUraunzEhj34ZU8%3D, beginning. . .
+[2022-10-30 00:14:47] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com', path /CB/E7/7F/04/7/020_0_0BA99148_6609D_1344.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1667110486&Signature=DGvlvgwtrfxncxSZKnC7%2Fv2PMlOGtMJFRNzsAHzxxH7h6AaV1SRjeagQmDyGJ130YXmVLCcSsXMihtiQs6NhG06p0TT0%2Fi0O3RYDTEusk5%2Bd9xI13BtRuewpgTkbTJAn4udUtsasHUaxf4Bgxh1Slz%2FDtyxKlB9REUFTjl0Rc%2Bo%3D, beginning. . .
+[2022-10-30 00:14:47] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2022-10-30 00:14:47] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2022-10-30 00:14:47] [AppID 7] Download OK for file sharedconfig.vdf
+[2022-10-30 00:14:47] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2022-10-30 00:14:47] [AppID 7] Download complete, result OK
+[2022-10-30 00:14:47] [AppID 7] Successfully synced to ChangeNumber 11965726897367355884
+[2022-10-30 00:14:47] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-10-30 00:14:47] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+
+
+[2022-10-30 01:04:32] [AppID 7] Starting sync (init,)
+[2022-10-30 01:04:32] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 01:04:32] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 01:04:32] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 01:04:44] [AppID 7] Starting sync (init,)
+[2022-10-30 01:04:44] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 01:04:44] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 01:04:44] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 01:04:45] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2022-10-30 01:04:45] [AppID 7] Starting sync (eval,)
+[2022-10-30 01:04:45] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 01:04:46] [AppID 7] Currently already synced to global change number '11965726897367355884', should be nothing to download
+[2022-10-30 01:04:46] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2022-10-30 01:04:46] [AppID 7] File is in sync sharedconfig.vdf
+[2022-10-30 01:04:46] [AppID 7] Eval complete
+[2022-10-30 01:04:46] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2022-10-30 01:04:46] [AppID 7] Starting sync (down,)
+[2022-10-30 01:04:46] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 01:04:46] [AppID 7] Currently already synced to global change number '11965726897367355884', should be nothing to download
+[2022-10-30 01:04:46] [AppID 7] Download complete in build list
+[2022-10-30 01:04:46] [AppID 7] Successfully synced to ChangeNumber 0
+[2022-10-30 01:04:46] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-10-30 01:04:46] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+
+
+[2022-10-30 01:43:21] [AppID 7] Starting sync (init,)
+[2022-10-30 01:43:21] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 01:43:21] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 01:43:21] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 01:43:32] [AppID 7] Starting sync (init,)
+[2022-10-30 01:43:32] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 01:43:32] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 01:43:32] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 01:43:33] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2022-10-30 01:43:33] [AppID 7] Starting sync (eval,)
+[2022-10-30 01:43:33] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 01:43:33] [AppID 7] Currently already synced to global change number '11965726897367355884', should be nothing to download
+[2022-10-30 01:43:33] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2022-10-30 01:43:33] [AppID 7] File is in sync sharedconfig.vdf
+[2022-10-30 01:43:33] [AppID 7] Eval complete
+[2022-10-30 01:43:33] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2022-10-30 01:43:33] [AppID 7] Starting sync (down,)
+[2022-10-30 01:43:33] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 01:43:33] [AppID 7] Currently already synced to global change number '11965726897367355884', should be nothing to download
+[2022-10-30 01:43:33] [AppID 7] Download complete in build list
+[2022-10-30 01:43:33] [AppID 7] Successfully synced to ChangeNumber 0
+[2022-10-30 01:43:33] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-10-30 01:43:34] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+
+
+[2022-10-30 12:41:04] [AppID 7] Starting sync (init,)
+[2022-10-30 12:41:04] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 12:41:04] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 12:41:04] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 12:41:16] [AppID 7] Starting sync (init,)
+[2022-10-30 12:41:16] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 12:41:16] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 12:41:16] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 12:41:18] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2022-10-30 12:41:18] [AppID 7] Starting sync (eval,)
+[2022-10-30 12:41:18] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 12:41:18] [AppID 7] Need to sync from local change number '11965726897367355884' to global change number '16936796626637409256', but not attempting now
+[2022-10-30 12:41:18] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-10-30 12:41:18] [AppID 7] File is in sync sharedconfig.vdf
+[2022-10-30 12:41:18] [AppID 7] Eval complete
+[2022-10-30 12:41:18] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2022-10-30 12:41:18] [AppID 7] Starting sync (down,)
+[2022-10-30 12:41:18] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 12:41:18] [AppID 7] Attempting to sync from local change number '11965726897367355884' to global change number '16936796626637409256'
+[2022-10-30 12:41:18] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-10-30 12:41:18] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com', path /CB/E7/7F/04/7/020_0_0BA99148_6609D_1345.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1667158877&Signature=aDE19dUtpxsR%2BSqP70z6y0oajZ24MR0RQYbqdpdjkssYUHpL6MaBnfWGzdBYTUiqsUAXL%2Bc7boOX3fosfa9GxovF6XmxGXtDnqE6%2B%2Bn4c5pfLsmI9%2F3Wmg3l4Yyu5b1%2Fklc4f7DN6dexzvxo1EqeONyJAqsGQW1o0DXc1akA%2F1Q%3D, beginning. . .
+[2022-10-30 12:41:19] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2022-10-30 12:41:19] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2022-10-30 12:41:19] [AppID 7] Download complete, result OK
+[2022-10-30 12:41:19] [AppID 7] Successfully synced to ChangeNumber 16936796626637409256
+[2022-10-30 12:41:19] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-10-30 12:41:19] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+
+
+[2022-10-30 12:57:40] [AppID 7] Starting sync (init,)
+[2022-10-30 12:57:40] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 12:57:40] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 12:57:40] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 12:58:08] [AppID 7] Starting sync (init,)
+[2022-10-30 12:58:08] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 12:58:08] [U:1:75491275] [AppID 7] Init cache request complete
+[2022-10-30 12:58:08] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 12:58:10] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2022-10-30 12:58:10] [AppID 7] Starting sync (eval,)
+[2022-10-30 12:58:10] [AppID 7] AutoCloud checking local state for user 75491275
+[2022-10-30 12:58:10] [AppID 7] Currently already synced to global change number '16936796626637409256', should be nothing to download
+[2022-10-30 12:58:10] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2022-10-30 12:58:10] [AppID 7] File is in sync sharedconfig.vdf
+[2022-10-30 12:58:10] [AppID 7] Eval complete
+[2022-10-30 12:58:10] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2022-10-30 12:58:10] [AppID 7] Starting sync (down,)
+[2022-10-30 12:58:10] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'
+[2022-10-30 12:58:10] [AppID 7] Currently already synced to global change number '16936796626637409256', should be nothing to download
+[2022-10-30 12:58:10] [AppID 7] Download complete in build list
+[2022-10-30 12:58:10] [AppID 7] Successfully synced to ChangeNumber 0
+[2022-10-30 12:58:10] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-10-30 12:58:10] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder/userdata/75491275/7/remotecache.vdf'

@@ -1,0 +1,14 @@
+"appbuild"
+{
+	"appid" "2205080"
+	"desc" "Fifth build (with manager)"
+	"buildoutput" "D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\output"
+	"contentroot" ""
+	"setlive" ""
+	"preview" "0"
+	"local"	""
+	"depots"
+	{
+		"2205081"	"D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\scripts\depot_2205081.vdf"
+	}
+}

@@ -1,0 +1,17 @@
+[2022-10-30 12:58:10]: Starting build for depot 2205081, content path is "D:\Documents\GitHub\ChangosGame\Builds\v.0.1.4", build flags 0x0
+[2022-10-30 12:58:11]: Building file listing for depot 2205081 ...
+[2022-10-30 12:58:11]: Found 137 files for mapping: D:\Documents\GitHub\ChangosGame\Builds\v.0.1.4 * -> .
+[2022-10-30 12:58:13]: Found 137 files (64 MB) for depot 2205081
+[2022-10-30 12:58:14]: Building depot 2205081, baseline manifest 6234486406770484444 (137 files)
+[2022-10-30 12:58:16]: Found 164 chunks ( 164 used previously ) for depot 2205081, took 0 minutes, 2 seconds
+[2022-10-30 12:58:16]: Changes to baseline manifest 6234486406770484444 :
+[2022-10-30 12:58:16]: Changed: "ChangosGame_Data\globalgamemanagers" 123 kB size, 123 kB changed 
+[2022-10-30 12:58:16]: Changed: "ChangosGame_Data\globalgamemanagers.assets" 661 kB size, 661 kB changed 
+[2022-10-30 12:58:16]: Changed: "ChangosGame_Data\level0" 17 kB size, 17 kB changed 
+[2022-10-30 12:58:16]: Changed: "ChangosGame_Data\Managed\Assembly-CSharp.dll" 11 kB size, 11 kB changed 
+[2022-10-30 12:58:16]: Changed: "ChangosGame_Data\resources.assets" 238 kB size, 238 kB changed 
+[2022-10-30 12:58:16]: Changed: "ChangosGame_Data\sharedassets0.assets" 498 kB size, 498 kB changed 
+[2022-10-30 12:58:16]: Summary: 0 files added, 6 files changed, 0 files removed
+[2022-10-30 12:58:16]: Uploading new manifest to 208.64.201.169:80 (handle 11896825449049741815, 21900 bytes).
+[2022-10-30 12:58:17]: Uploading 6 out of 6 missing chunks.
+[2022-10-30 12:58:18]: Success! New manifestID 7944696355930149121 created and 6 new chunks uploaded.
