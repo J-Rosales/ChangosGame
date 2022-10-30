@@ -7,24 +7,31 @@ using UnityEngine.InputSystem;
 public class CharacterInput : MonoBehaviour
 {
     public event Action OnUsePressed;
-    public InputActionAsset actionAsset;
     public Vector3 moveVector;
     public Vector3 rotateVector;
-    
-    InputActionMap map;
 
-    void Start()
+    PlayerInput playerInput;
+
+    public void Start()
     {
-        map = actionAsset.FindActionMap("Player");
-        map.Enable();
+        playerInput = GetComponent<PlayerInput>();
+        playerInput.onActionTriggered += OnActionTriggered;
+    }
 
-        map["Move"].performed += OnMove;
-        map["Move"].canceled += OnMove;
-
-        map["Rotate"].performed += OnRotate;
-        map["Rotate"].canceled += OnRotate;
-
-        map["Use"].performed += OnUse;
+    private void OnActionTriggered(InputAction.CallbackContext context)
+    {
+        switch (context.action.name)
+        {
+            case "Move":
+                OnMove(context);
+                break;
+            case "Use":
+                OnUse(context);
+                break;
+            case "Rotate":
+                OnRotate(context);
+                break;
+        }
     }
 
     public void OnMove(InputAction.CallbackContext context)

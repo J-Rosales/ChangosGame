@@ -29,6 +29,7 @@ public class ItemGrabber : MonoBehaviour
         {
             grabbed.transform.SetParent(null);
             grabbed.transform.position = new Vector3(grabbed.transform.position.x, grabbed.GetComponent<MeshRenderer>().bounds.extents.y, grabbed.transform.position.z);
+            detector.detected.Remove(grabbed.GetComponent<Collider>());
             grabbed = null;
         }
     }

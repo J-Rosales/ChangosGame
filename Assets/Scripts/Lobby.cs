@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,16 +7,18 @@ using UnityEngine.InputSystem;
 public class Lobby : MonoBehaviour
 {
     public GameObject playerPrefab;
-    public Transform spawnMarker;
-    
-    void Start()
+    public Transform[] spawnMarkers;
+    public InputActionAsset actionAsset;
+
+    public PlayerInputManager manager;
+
+    public void Start()
     {
-        Instantiate(playerPrefab, spawnMarker.position, Quaternion.identity, null);
-        foreach (InputDevice device in InputSystem.devices)
-        {
-            Debug.Log(device.name);
-        }            
+        manager.onPlayerJoined += OnPlayerJoined;
     }
 
-    
+    private void OnPlayerJoined(PlayerInput obj)
+    {
+        obj.gameObject.transform.position = spawnMarkers[0].transform.position;
+    }
 }
