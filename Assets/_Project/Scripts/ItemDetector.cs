@@ -6,13 +6,20 @@ public class ItemDetector : MonoBehaviour
 {
     public Collider focused;
     public List<Collider> detected;
+    public List<Collision> interactable;
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name == "PickupCube")
+        if(other.gameObject.tag == "Pickup")
+        {
             detected.Add(other);
+            UpdateFocused();
+        }
 
-        UpdateFocused();
+        else if(other.gameObject.tag == "Container" || other.gameObject.tag == "Workstation")
+        {
+            detected.Add(other);
+        }
     }
 
     void UpdateFocused()

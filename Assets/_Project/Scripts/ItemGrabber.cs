@@ -15,7 +15,7 @@ public class ItemGrabber : MonoBehaviour
         input.OnUsePressed += ToggleGrab;
     }
 
-    void ToggleGrab()
+    public void ToggleGrab()
     {
         if(grabbed == null)
         {
