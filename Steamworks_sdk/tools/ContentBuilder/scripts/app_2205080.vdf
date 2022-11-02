@@ -1,7 +1,7 @@
 "appbuild"
 {
 	"appid" "2205080"
-	"desc" "Fifth build (with manager)"
+	"desc" "Sixth build (External Assets)"
 	"buildoutput" "D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\output"
 	"contentroot" ""
 	"setlive" ""

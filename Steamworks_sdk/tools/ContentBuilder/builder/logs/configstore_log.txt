@@ -71,3 +71,17 @@
 [2022-10-30 12:58:10] Flushed store 'userlocal' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\userdata\75491275\config\localconfig.vdf'
 [2022-10-30 12:58:11] Flushed store 'install' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf'
 [2022-10-30 12:58:11] Flushed store 'userlocal' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\userdata\75491275\config\localconfig.vdf'
+
+
+[2022-10-30 19:32:59] Loaded store 'install' from 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-10-30 19:32:59] Loaded store 'install' from 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-10-30 19:32:59] Loaded store 'install' from 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-10-30 19:32:59] Loaded store 'install' from 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-10-30 19:32:59] Loaded store 'userlocal' from 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\userdata\75491275\config\localconfig.vdf' successfully
+[2022-10-30 19:32:59] Loaded store 'install' from 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-10-30 19:33:00] Flushed store 'install' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-10-30 19:33:02] Flushed store 'install' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-10-30 19:33:12] Flushed store 'install' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-10-30 19:33:12] Flushed store 'userlocal' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\userdata\75491275\config\localconfig.vdf'
+[2022-10-30 19:33:13] Flushed store 'userlocal' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\userdata\75491275\config\localconfig.vdf'
+[2022-10-30 19:33:13] Flushed store 'install' to 'D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\config\config.vdf'

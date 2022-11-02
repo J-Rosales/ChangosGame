@@ -13,3 +13,6 @@
 
 
 [2022-10-30 12:57:40] Loaded 0 apps from install folder "D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-10-30 19:32:59] Loaded 0 apps from install folder "D:\Documents\GitHub\ChangosGame\Steamworks_sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
