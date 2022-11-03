@@ -4,34 +4,29 @@ using UnityEngine;
 
 public class ItemDetector : MonoBehaviour
 {
-    public Collider focused;
-    public List<Collider> detected;
-    public List<Collision> interactable;
+    public Placeable focused;
+    public List<Placeable> detected;
+    public List<Placeable> interactable;
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Pickup")
+        if(other.TryGetComponent(out Placeable placeable))
         {
-            detected.Add(other);
+            detected.Add(placeable);
             UpdateFocused();
-        }
-
-        else if(other.gameObject.tag == "Container" || other.gameObject.tag == "Workstation")
-        {
-            detected.Add(other);
         }
     }
 
-    void UpdateFocused()
+    public void UpdateFocused()
     {
         focused = detected.Count > 0 ? detected[0] : null;
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if(detected.Contains(other))
+        if(other.TryGetComponent(out Placeable placeable))
         {
-            detected.Remove(other);
+            detected.Remove(placeable);
             UpdateFocused();
         }
     }
