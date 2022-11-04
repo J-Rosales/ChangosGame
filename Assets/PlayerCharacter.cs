@@ -6,9 +6,11 @@ public class PlayerCharacter : MonoBehaviour
     public CharacterInput playerInput;
     public ItemHolder itemHolder;
     public ItemDetector itemDetector;
+    public MeshRenderer[] renderers;
 
     void Start()
     {
+        RandomizeMaterial();
         playerInput.OnGrabPressed += ItemGrabCheck;
         playerInput.OnUsePressed += ItemUseCheck;
     }
@@ -17,14 +19,20 @@ public class PlayerCharacter : MonoBehaviour
     {
         if(itemHolder.heldItem != null)
         {
-            itemHolder.heldItem.Place(itemHolder.holdAnchor.position, null);
+            if(itemDetector.focused is ItemSurface surface)
+                itemHolder.heldItem.Place(surface);
+            else
+                itemHolder.heldItem.Place(itemHolder.holdAnchor.position, null);
             itemHolder.heldItem = null;
         }
         else if(itemDetector.focused != null)
         {
-            Give(itemDetector.focused);
-            itemDetector.detected.Clear();
-            itemDetector.UpdateFocused();
+            if(itemDetector.focused is Placeable placeable)
+            {
+                Give(placeable);
+                itemDetector.detected.Clear();
+                itemDetector.UpdateFocused();
+            }
         }
     }
 
@@ -39,5 +47,15 @@ public class PlayerCharacter : MonoBehaviour
     public void Give(Placeable item)
     {
         itemHolder.TryAdd(item);
+    }
+
+    void RandomizeMaterial()
+    {
+        Color color = Color.HSVToRGB(UnityEngine.Random.Range(0f, 1f), 1f, 1f);
+        Material newMaterial = new Material(renderers[0].material);
+        newMaterial.name = "_PlayerMaterial";
+        newMaterial.color = color;
+        foreach (MeshRenderer mesh in renderers)
+            mesh.materials = new Material[] {newMaterial};
     }
 }

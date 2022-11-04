@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ItemDetector : MonoBehaviour
 {
-    public Placeable focused;
-    public List<Placeable> detected;
-    public List<Placeable> interactable;
+    public Item focused;
+    public List<Item> detected;
+    public List<Item> interactable;
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out Placeable placeable))
+        if(other.TryGetComponent(out Item placeable))
         {
             detected.Add(placeable);
             UpdateFocused();
@@ -24,7 +24,7 @@ public class ItemDetector : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        if(other.TryGetComponent(out Placeable placeable))
+        if(other.TryGetComponent(out Item placeable))
         {
             detected.Remove(placeable);
             UpdateFocused();

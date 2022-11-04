@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ItemSurface : MonoBehaviour
+public class ItemSurface : Item
 {
     public Transform[] itemAnchors;
 }
