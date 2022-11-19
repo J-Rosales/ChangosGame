@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Placeable : Item
 {
+    public Collider holdCollider;
+    public bool isHeldByPlayer;
+
     public void PlaceManual(Vector3 position, Transform parent)
     {
         transform.SetParent(parent);
@@ -13,10 +16,9 @@ public class Placeable : Item
     public void Place(Vector3 position, Transform parent)
     {
         transform.SetParent(parent);
-        
         transform.position = new Vector3(Mathf.Round(position.x), 1f, Mathf.Round(position.z));
         transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-
+        isHeldByPlayer = false;
     }
 
     public void PlaceOnGrid()
@@ -24,13 +26,11 @@ public class Placeable : Item
         
     }
 
-    public void Place(ItemContainer container)
+    public void Place(ItemSurface surface, Transform itemAnchor)
     {
-
-    }
-
-    public void Place(ItemSurface surface)
-    {
-
+        transform.SetParent(surface.transform);
+        transform.position = itemAnchor.position - surfaceAnchor.localPosition;
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        isHeldByPlayer = false;
     }
 }

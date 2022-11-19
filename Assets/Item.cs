@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    public Transform surfaceAnchor;
     IEnumerator rotationLerp;
 
     public void Delete()

@@ -20,18 +20,23 @@ public class PlayerCharacter : MonoBehaviour
         if(itemHolder.heldItem != null)
         {
             if(itemDetector.focused is ItemSurface surface)
-                itemHolder.heldItem.Place(surface);
+                surface.Place(itemHolder.heldItem);
             else
                 itemHolder.heldItem.Place(itemHolder.holdAnchor.position, null);
             itemHolder.heldItem = null;
         }
         else if(itemDetector.focused != null)
         {
-            if(itemDetector.focused is Placeable placeable)
+            if(itemDetector.focused is Placeable placeable
+                    && !placeable.isHeldByPlayer)
             {
                 Give(placeable);
                 itemDetector.detected.Clear();
                 itemDetector.UpdateFocused();
+            }
+            else if(itemDetector.focused is ItemSurface surface && surface.lastAdded != null)
+            {
+                Give(surface.RemoveLatest());
             }
         }
     }
@@ -47,6 +52,7 @@ public class PlayerCharacter : MonoBehaviour
     public void Give(Placeable item)
     {
         itemHolder.TryAdd(item);
+        item.isHeldByPlayer = true;
     }
 
     void RandomizeMaterial()
